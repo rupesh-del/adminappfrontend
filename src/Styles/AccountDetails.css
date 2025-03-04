@@ -1,0 +1,158 @@
+/* Account Details Page */
+.account-details {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    min-height: 100vh;
+  }
+  
+  /* Transactions Table */
+  .transactions-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transactions-table th, .transactions-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .transactions-table th {
+    background: #2e8b57;
+    color: white;
+  }
+  
+  .transactions-table tr:hover {
+    background: #e8f5e9;
+  }
+  
+  .totals-row {
+    background: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .new-transaction {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .new-transaction input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .new-transaction button {
+    background: #2e8b57;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 45%;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    background: #d9534f !important;
+  }
+  
+  .new-transaction button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Balance Type */
+  .balance-type {
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  /* Back Button */
+  .back-btn {
+    background: #2e8b57;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .back-btn:hover {
+    background: #267a48;
+  }
+  /* ✅ Style Generate Report Button to Match Back Button */
+.report-btn {
+  background: #2e8b57; /* Same green as Back button */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 10px; /* ✅ Adds space between buttons */
+}
+
+.report-btn:hover {
+  background: #267a48; /* ✅ Darker shade on hover */
+}
+
+  .balance-row {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .balance-row td {
+    padding: 10px;
+    border-top: 2px solid #333;
+  }
+/* ✅ Ensure buttons are properly spaced */
+.action-buttons {
+  display: flex;
+  gap: 8px; /* ✅ Adds spacing between buttons */
+}
+
+/* ✅ Style the Edit Button */
+.edit-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background: #0056b3;
+}
+
+/* ✅ Style the Delete Button */
+.delete-btn {
+  background: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #c9302c;
+}

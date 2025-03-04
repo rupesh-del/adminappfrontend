@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-header {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-nav {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+    gap: 20px;
+  }
+  
+  .home-nav button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .home-main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  

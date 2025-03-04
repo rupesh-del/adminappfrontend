@@ -1,0 +1,77 @@
+.daily-receivables-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .new-report-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .new-report-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  .search-bar {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 200px;
+  }
+  
+  .reports-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .reports-table th, .reports-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .reports-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .view-btn {
+    background-color: blue;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .view-btn:hover {
+    background-color: darkblue;
+  }
+  .back-to-reports-btn {
+    background-color: #007bff; /* Blue */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.back-to-reports-btn:hover {
+    background-color: #0056b3;
+}
