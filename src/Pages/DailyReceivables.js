@@ -100,8 +100,8 @@ const handleDeleteReport = async (reportDate) => {
                             <tr key={index}>
                                 {/* ✅ Clicking the row navigates to Edit Report */}
                                 <td onClick={() => navigate(`/edit-report/${report.report_date}`)} style={{ cursor: "pointer" }}>
-                                    {new Date(report.report_date).toLocaleDateString()}
-                                </td>
+    {report.report_date.split("T")[0]}
+</td>
                                 <td>
                                     {/* ✅ "View" now correctly navigates to View Report */}
                                     <button className="view-btn" onClick={(e) => {
