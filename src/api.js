@@ -195,6 +195,45 @@ finishDailyReceivablesReport: async (reportDate) => {
     }
 },
 
+// Daily Report
+    // ✅ Fetch all reports
+    getAllDailyReports: async () => {
+      const response = await fetch(`${API_BASE_URL}/daily-reports`);
+      return response.json();
+  },
+
+  // ✅ Fetch a specific report
+  getDailyReport: async (date) => {
+      const response = await fetch(`${API_BASE_URL}/daily-report/${date}`);
+      return response.json();
+  },
+
+  // ✅ Create a new report
+  createDailyReport: async (reportData) => {
+      const response = await fetch(`${API_BASE_URL}/daily-report`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(reportData),
+      });
+      return response.json();
+  },
+
+  // ✅ Update an existing report
+  updateDailyReport: async (id, reportData) => {
+      const response = await fetch(`${API_BASE_URL}/daily-report/${id}`, {
+          method: "PUT",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(reportData),
+      });
+      return response.json();
+  },
+
+  // ✅ Delete a report
+  deleteDailyReport: async (id) => {
+      return fetch(`${API_BASE_URL}/daily-report/${id}`, { method: "DELETE" });
+  },
+
+
 };
 
 export default api;
