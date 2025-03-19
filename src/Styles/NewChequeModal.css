@@ -1,0 +1,82 @@
+/* Modal Overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Scrollable Modal */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  max-height: 80vh; /* Limits height */
+  overflow-y: auto; /* Enables scrolling if needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Two-Column Input Layout */
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.input-group {
+  width: 48%; /* Makes each input field take half of the row */
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.input-group input, 
+.input-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Buttons */
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background-color: #006400;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.cancel-btn {
+  background-color: #d9534f;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.save-btn:hover {
+  background-color: #004d00;
+}
+
+.cancel-btn:hover {
+  background-color: #b52b27;
+}

@@ -37,6 +37,7 @@ const Header = () => {
 
       <nav style={navStyle}>
         <NavLink to="/accounts" style={linkStyle}>Accounts</NavLink>
+        <NavLink to="/cheque-tracker" style={linkStyle}>Cheque Tracker</NavLink>
       </nav>
 
       <div
